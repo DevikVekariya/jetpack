@@ -11,6 +11,7 @@ import icon from './icon';
 import save from './save';
 import imgExampleAfter from './img-example-after.png';
 import imgExampleBefore from './img-example-before.png';
+import { getCategoryWithFallbacks } from '../../shared/blocks/helpers';
 
 export const name = 'image-compare';
 
@@ -22,8 +23,7 @@ export const settings = {
 	),
 
 	icon,
-
-	category: 'layout',
+	category: getCategoryWithFallbacks( 'design', 'layout' ),
 	keywords: [
 		_x( 'juxtapose', 'block search term', 'jetpack' ),
 		_x( 'photos', 'block search term', 'jetpack' ),
