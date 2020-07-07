@@ -689,7 +689,7 @@ HTML;
 	 *
 	 * @param  int    $section_id  section_id.
 	 * @param  string $form_factor form_factor.
-	 * @param  int    $location    location.
+	 * @param  string $location    location.
 	 * @param  string $relocate    location to be moved after the fact for themes without required hook.
 	 * @return string
 	 *
